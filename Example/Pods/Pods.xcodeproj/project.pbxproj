@@ -6,17 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		8DBFC5E18875A5ED0326F1FB7EF25D7C /* EastEggKit */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B3C71BC21CB99B2B8715D3D13A929F15 /* Build configuration list for PBXAggregateTarget "EastEggKit" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = EastEggKit;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		148E5D8E5E85CE250ED817B96893D2BA /* Pods-EastEggKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0809FED51A8BE2B96E359C8CB3A3685 /* Pods-EastEggKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2203647063000AADADA9256956E895F8 /* Pods-EastEggKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC1EE951A9626E0CA640553F1AE74A1 /* Pods-EastEggKit_Example-dummy.m */; };
-		3048C64D44C4192FE50D915EDF958F97 /* EastEggKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDA50F1AE04C17A0BA29017723F815BA /* EastEggKit-dummy.m */; };
-		6FCCC7C5BDB2ACE37B1E548BAA6A096D /* Pods-EastEggKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E9601FC80011BE46706C2033F96E68 /* Pods-EastEggKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73A5839B11906CFD823D4527D190C5D8 /* Pods-EastEggKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 664F4622AD435655123846EA752F8623 /* Pods-EastEggKit_Tests-dummy.m */; };
+		148E5D8E5E85CE250ED817B96893D2BA /* Pods-EastEggKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A48F0D6EFEB86BBA24A9D4843EADABE3 /* Pods-EastEggKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2203647063000AADADA9256956E895F8 /* Pods-EastEggKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CE361DDDD65065254772EF583047FCB /* Pods-EastEggKit_Example-dummy.m */; };
+		6FCCC7C5BDB2ACE37B1E548BAA6A096D /* Pods-EastEggKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E420FD2ECC908E8DB73F5D8081C8B35A /* Pods-EastEggKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73A5839B11906CFD823D4527D190C5D8 /* Pods-EastEggKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC8B507BD3D81FE53F9BF36B85FF25B /* Pods-EastEggKit_Tests-dummy.m */; };
 		782806AFEA4E0BA6E2F1755D15372833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		9D4562EA61A8CD64A38B32F8B435B8F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		A5A6EBF6F88E9917ACD21FFF8ED22032 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDC5F2B301D146D70A63C010011D613 /* ReplaceMe.swift */; };
 		D01923E16EE3A83367504D03CCFF5ACB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E5FFB51DB0E2A994B59CA21DB9722DF8 /* EastEggKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA3496A3EE3D9C2FA30A1B3B5B72F157 /* EastEggKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,38 +45,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B6262060B21A4B775F7FB9EA703D1C1 /* Pods-EastEggKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EastEggKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		0EDE120EB6F69645EB2E5FAEE2ADA774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1556DFE5A948F4360BC633DFF8A230FF /* EastEggKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EastEggKit-prefix.pch"; sourceTree = "<group>"; };
-		23542B028F87D50708102E6011F06E4B /* EastEggKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EastEggKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1A496EC9661BBAEC578FE31867F44672 /* Pods-EastEggKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EastEggKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2CE361DDDD65065254772EF583047FCB /* Pods-EastEggKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EastEggKit_Example-dummy.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		362BE88D0280D41974CC516EB02FFBA2 /* Pods-EastEggKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		448AD7270942189E4DB94B2FE6D923E8 /* EastEggKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EastEggKit-Info.plist"; sourceTree = "<group>"; };
-		48585FA1B303B2879A8793046D2A37BF /* Pods-EastEggKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EastEggKit_Example.modulemap"; sourceTree = "<group>"; };
-		628BCB02B086ED0DC154145CE5A547BF /* Pods-EastEggKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		664F4622AD435655123846EA752F8623 /* Pods-EastEggKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EastEggKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		6C2BFF7E15D2A7EE9060566743AB5947 /* Pods-EastEggKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		863D7D75C3DA0771DECBAC9BB3C01FDB /* Pods-EastEggKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		95A2D21EFF3250BD19628197BD4F40A0 /* EastEggKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EastEggKit.modulemap; sourceTree = "<group>"; };
-		95E9601FC80011BE46706C2033F96E68 /* Pods-EastEggKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EastEggKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		9CDC5F2B301D146D70A63C010011D613 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = EastEggKit/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		3DCE37195C7AA9F0921F3C11E9F57CD0 /* Pods-EastEggKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		66899DD5BBC65A82D481603E49625D95 /* Pods-EastEggKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		75804E6444EDF024F6E8D754C8926CFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		94D3965C0A9586202DB7E55605461672 /* Pods-EastEggKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AFF2C89B6B85C2893770CA2B496A8D2B /* Pods-EastEggKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BDC1EE951A9626E0CA640553F1AE74A1 /* Pods-EastEggKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EastEggKit_Example-dummy.m"; sourceTree = "<group>"; };
-		C00B82F2C5102B98896364E30769E888 /* Pods-EastEggKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		D0809FED51A8BE2B96E359C8CB3A3685 /* Pods-EastEggKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EastEggKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		D08D2E872657770413357CDBF4DB2866 /* EastEggKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EastEggKit.framework; path = EastEggKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D573A4D936AFDBB04BEF755F03C2F31E /* Pods-EastEggKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DA3496A3EE3D9C2FA30A1B3B5B72F157 /* EastEggKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EastEggKit-umbrella.h"; sourceTree = "<group>"; };
-		DB293344DA76C49FFB51E91E1252ED14 /* Pods-EastEggKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Example-Info.plist"; sourceTree = "<group>"; };
+		9E78C4A07D0CED0DBA8EE22F816F9A3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A289D4F88595F33950D057A458E7540E /* Pods-EastEggKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EastEggKit_Tests.modulemap"; sourceTree = "<group>"; };
+		A323F39E96A666477F2946180BF0B1D5 /* Pods-EastEggKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A40DE69A85E93EFFEC3FA66492D49A20 /* Pods-EastEggKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A48F0D6EFEB86BBA24A9D4843EADABE3 /* Pods-EastEggKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EastEggKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		C874F69E3B4A30B7DD24F6A71C65CB80 /* EastEggKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EastEggKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBDDC6D15E94FC4AE6599BFB4F710E4A /* EastEggKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EastEggKit.xcconfig; sourceTree = "<group>"; };
+		D3FDD6ABF73491D353E98F3A16CF1799 /* Pods-EastEggKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Example-Info.plist"; sourceTree = "<group>"; };
+		D93E21B2A986605F323B10A33E1EF1FA /* Pods-EastEggKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EastEggKit_Example.modulemap"; sourceTree = "<group>"; };
 		DBB4825E298F418A563D8D173A7EA5D8 /* Pods_EastEggKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EastEggKit_Tests.framework; path = "Pods-EastEggKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DDA50F1AE04C17A0BA29017723F815BA /* EastEggKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EastEggKit-dummy.m"; sourceTree = "<group>"; };
-		E4FFC4BF621473B4BFE3282BA2D5A6C6 /* Pods-EastEggKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EastEggKit_Tests.modulemap"; sourceTree = "<group>"; };
-		EBAAC96C8F85E3E7FF2CCD3314B0A341 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DD322BBE3AABBBEA5294092BF4172D91 /* Pods-EastEggKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EastEggKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E420FD2ECC908E8DB73F5D8081C8B35A /* Pods-EastEggKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EastEggKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EC277673077C0137A7CF9C9C7A1B364C /* Pods_EastEggKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EastEggKit_Example.framework; path = "Pods-EastEggKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED06CFB97B704D23D88C3296294128B2 /* Pods-EastEggKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EastEggKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FD643888A641D18988DCE01E952B50FF /* Pods-EastEggKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EastEggKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FFA8EDF24137840FB797236B317F2693 /* EastEggKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EastEggKit.xcconfig; sourceTree = "<group>"; };
+		F3A27B284FCCBE2ED14A5F76DC7945CA /* Pods-EastEggKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EastEggKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		F8BFA6CB1C2C70716B905FDF5B9F60EE /* Pods-EastEggKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EastEggKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEC8B507BD3D81FE53F9BF36B85FF25B /* Pods-EastEggKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EastEggKit_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,69 +88,94 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		933E0BFFECFD63CAD1302047D78D3D28 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9D4562EA61A8CD64A38B32F8B435B8F7 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16E3EBF9607E20C28D793025E2303DDD /* EastEggKit */ = {
+		0088A8CF9259238B6705FA9BBD3B460F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9CDC5F2B301D146D70A63C010011D613 /* ReplaceMe.swift */,
-				1A60E8801362B9381D3CFBA504AFF14D /* Pod */,
-				C3F5BF06D3970165FEA18E06C74409AC /* Support Files */,
+				EC277673077C0137A7CF9C9C7A1B364C /* Pods_EastEggKit_Example.framework */,
+				DBB4825E298F418A563D8D173A7EA5D8 /* Pods_EastEggKit_Tests.framework */,
 			);
-			name = EastEggKit;
-			path = ../..;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		1A60E8801362B9381D3CFBA504AFF14D /* Pod */ = {
+		174D684B97B52C3FAC810C18BA8DBFB8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				23542B028F87D50708102E6011F06E4B /* EastEggKit.podspec */,
-				0EDE120EB6F69645EB2E5FAEE2ADA774 /* LICENSE */,
-				EBAAC96C8F85E3E7FF2CCD3314B0A341 /* README.md */,
+				A0825A579011A4C27B84C848184CEEC1 /* EastEggKit */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		611774B651417FFF8C897E94B9E8D6A6 /* Pods-EastEggKit_Example */ = {
+		4944E1A25176B9F069FF5C2E319AD559 /* Pods-EastEggKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				48585FA1B303B2879A8793046D2A37BF /* Pods-EastEggKit_Example.modulemap */,
-				ED06CFB97B704D23D88C3296294128B2 /* Pods-EastEggKit_Example-acknowledgements.markdown */,
-				C00B82F2C5102B98896364E30769E888 /* Pods-EastEggKit_Example-acknowledgements.plist */,
-				BDC1EE951A9626E0CA640553F1AE74A1 /* Pods-EastEggKit_Example-dummy.m */,
-				0B6262060B21A4B775F7FB9EA703D1C1 /* Pods-EastEggKit_Example-frameworks.sh */,
-				DB293344DA76C49FFB51E91E1252ED14 /* Pods-EastEggKit_Example-Info.plist */,
-				D0809FED51A8BE2B96E359C8CB3A3685 /* Pods-EastEggKit_Example-umbrella.h */,
-				D573A4D936AFDBB04BEF755F03C2F31E /* Pods-EastEggKit_Example.debug.xcconfig */,
-				6C2BFF7E15D2A7EE9060566743AB5947 /* Pods-EastEggKit_Example.release.xcconfig */,
+				A289D4F88595F33950D057A458E7540E /* Pods-EastEggKit_Tests.modulemap */,
+				1A496EC9661BBAEC578FE31867F44672 /* Pods-EastEggKit_Tests-acknowledgements.markdown */,
+				94D3965C0A9586202DB7E55605461672 /* Pods-EastEggKit_Tests-acknowledgements.plist */,
+				FEC8B507BD3D81FE53F9BF36B85FF25B /* Pods-EastEggKit_Tests-dummy.m */,
+				F3A27B284FCCBE2ED14A5F76DC7945CA /* Pods-EastEggKit_Tests-Info.plist */,
+				E420FD2ECC908E8DB73F5D8081C8B35A /* Pods-EastEggKit_Tests-umbrella.h */,
+				DD322BBE3AABBBEA5294092BF4172D91 /* Pods-EastEggKit_Tests.debug.xcconfig */,
+				66899DD5BBC65A82D481603E49625D95 /* Pods-EastEggKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-EastEggKit_Tests";
+			path = "Target Support Files/Pods-EastEggKit_Tests";
+			sourceTree = "<group>";
+		};
+		765B437D9F24F2CE4261F89F77EAB019 /* Pods-EastEggKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D93E21B2A986605F323B10A33E1EF1FA /* Pods-EastEggKit_Example.modulemap */,
+				F8BFA6CB1C2C70716B905FDF5B9F60EE /* Pods-EastEggKit_Example-acknowledgements.markdown */,
+				3DCE37195C7AA9F0921F3C11E9F57CD0 /* Pods-EastEggKit_Example-acknowledgements.plist */,
+				2CE361DDDD65065254772EF583047FCB /* Pods-EastEggKit_Example-dummy.m */,
+				D3FDD6ABF73491D353E98F3A16CF1799 /* Pods-EastEggKit_Example-Info.plist */,
+				A48F0D6EFEB86BBA24A9D4843EADABE3 /* Pods-EastEggKit_Example-umbrella.h */,
+				A323F39E96A666477F2946180BF0B1D5 /* Pods-EastEggKit_Example.debug.xcconfig */,
+				A40DE69A85E93EFFEC3FA66492D49A20 /* Pods-EastEggKit_Example.release.xcconfig */,
 			);
 			name = "Pods-EastEggKit_Example";
 			path = "Target Support Files/Pods-EastEggKit_Example";
 			sourceTree = "<group>";
 		};
-		6F433EFF89B3F91CFEAC1387AE7AC9C1 /* Pods-EastEggKit_Tests */ = {
+		94CCE7C21213B09CDAAD477B3C7CA0F4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E4FFC4BF621473B4BFE3282BA2D5A6C6 /* Pods-EastEggKit_Tests.modulemap */,
-				FD643888A641D18988DCE01E952B50FF /* Pods-EastEggKit_Tests-acknowledgements.markdown */,
-				AFF2C89B6B85C2893770CA2B496A8D2B /* Pods-EastEggKit_Tests-acknowledgements.plist */,
-				664F4622AD435655123846EA752F8623 /* Pods-EastEggKit_Tests-dummy.m */,
-				863D7D75C3DA0771DECBAC9BB3C01FDB /* Pods-EastEggKit_Tests-Info.plist */,
-				95E9601FC80011BE46706C2033F96E68 /* Pods-EastEggKit_Tests-umbrella.h */,
-				628BCB02B086ED0DC154145CE5A547BF /* Pods-EastEggKit_Tests.debug.xcconfig */,
-				362BE88D0280D41974CC516EB02FFBA2 /* Pods-EastEggKit_Tests.release.xcconfig */,
+				C874F69E3B4A30B7DD24F6A71C65CB80 /* EastEggKit.podspec */,
+				75804E6444EDF024F6E8D754C8926CFC /* LICENSE */,
+				9E78C4A07D0CED0DBA8EE22F816F9A3A /* README.md */,
 			);
-			name = "Pods-EastEggKit_Tests";
-			path = "Target Support Files/Pods-EastEggKit_Tests";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		A0825A579011A4C27B84C848184CEEC1 /* EastEggKit */ = {
+			isa = PBXGroup;
+			children = (
+				94CCE7C21213B09CDAAD477B3C7CA0F4 /* Pod */,
+				B3AD7BE18B0E372A54C8731810DFB6FA /* Support Files */,
+			);
+			name = EastEggKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A26B9C88149261F0C358F280A9BC4B36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				765B437D9F24F2CE4261F89F77EAB019 /* Pods-EastEggKit_Example */,
+				4944E1A25176B9F069FF5C2E319AD559 /* Pods-EastEggKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B3AD7BE18B0E372A54C8731810DFB6FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBDDC6D15E94FC4AE6599BFB4F710E4A /* EastEggKit.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EastEggKit";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -161,28 +186,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C3F5BF06D3970165FEA18E06C74409AC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				95A2D21EFF3250BD19628197BD4F40A0 /* EastEggKit.modulemap */,
-				FFA8EDF24137840FB797236B317F2693 /* EastEggKit.xcconfig */,
-				DDA50F1AE04C17A0BA29017723F815BA /* EastEggKit-dummy.m */,
-				448AD7270942189E4DB94B2FE6D923E8 /* EastEggKit-Info.plist */,
-				1556DFE5A948F4360BC633DFF8A230FF /* EastEggKit-prefix.pch */,
-				DA3496A3EE3D9C2FA30A1B3B5B72F157 /* EastEggKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EastEggKit";
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E0E138D1CC3C83B01F6F810B69613CFE /* Development Pods */,
+				174D684B97B52C3FAC810C18BA8DBFB8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E1F946CCB81D346AD9AC517D91E5ABBC /* Products */,
-				D5BBB10E703FC840A230A474D8D891D3 /* Targets Support Files */,
+				0088A8CF9259238B6705FA9BBD3B460F /* Products */,
+				A26B9C88149261F0C358F280A9BC4B36 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,33 +205,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5BBB10E703FC840A230A474D8D891D3 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				611774B651417FFF8C897E94B9E8D6A6 /* Pods-EastEggKit_Example */,
-				6F433EFF89B3F91CFEAC1387AE7AC9C1 /* Pods-EastEggKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E0E138D1CC3C83B01F6F810B69613CFE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				16E3EBF9607E20C28D793025E2303DDD /* EastEggKit */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E1F946CCB81D346AD9AC517D91E5ABBC /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D08D2E872657770413357CDBF4DB2866 /* EastEggKit.framework */,
-				EC277673077C0137A7CF9C9C7A1B364C /* Pods_EastEggKit_Example.framework */,
-				DBB4825E298F418A563D8D173A7EA5D8 /* Pods_EastEggKit_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -229,14 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				148E5D8E5E85CE250ED817B96893D2BA /* Pods-EastEggKit_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B15CEA8A6498F88AFC878A51B53D8773 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5FFB51DB0E2A994B59CA21DB9722DF8 /* EastEggKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,24 +265,6 @@
 			productReference = DBB4825E298F418A563D8D173A7EA5D8 /* Pods_EastEggKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8DBFC5E18875A5ED0326F1FB7EF25D7C /* EastEggKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7B93B056F469DE833D900FFE2BF52305 /* Build configuration list for PBXNativeTarget "EastEggKit" */;
-			buildPhases = (
-				B15CEA8A6498F88AFC878A51B53D8773 /* Headers */,
-				9922430B48754B872A5EB7BF0889BC8D /* Sources */,
-				933E0BFFECFD63CAD1302047D78D3D28 /* Frameworks */,
-				B49BEEE4819D7AADDE47E1175DBE9540 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = EastEggKit;
-			productName = EastEggKit;
-			productReference = D08D2E872657770413357CDBF4DB2866 /* EastEggKit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,7 +282,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E1F946CCB81D346AD9AC517D91E5ABBC /* Products */;
+			productRefGroup = 0088A8CF9259238B6705FA9BBD3B460F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -350,13 +308,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B49BEEE4819D7AADDE47E1175DBE9540 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -365,15 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2203647063000AADADA9256956E895F8 /* Pods-EastEggKit_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9922430B48754B872A5EB7BF0889BC8D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3048C64D44C4192FE50D915EDF958F97 /* EastEggKit-dummy.m in Sources */,
-				A5A6EBF6F88E9917ACD21FFF8ED22032 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,7 +347,7 @@
 /* Begin XCBuildConfiguration section */
 		0D65A617B105E0CEDF1C1D169F2F8290 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 362BE88D0280D41974CC516EB02FFBA2 /* Pods-EastEggKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 66899DD5BBC65A82D481603E49625D95 /* Pods-EastEggKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -437,9 +379,23 @@
 			};
 			name = Release;
 		};
+		1E55415D0A0A46808E3809DD9806A941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDDC6D15E94FC4AE6599BFB4F710E4A /* EastEggKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		2099DF7E86AD4650071B557AD711F00B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D573A4D936AFDBB04BEF755F03C2F31E /* Pods-EastEggKit_Example.debug.xcconfig */;
+			baseConfigurationReference = A323F39E96A666477F2946180BF0B1D5 /* Pods-EastEggKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -470,72 +426,9 @@
 			};
 			name = Debug;
 		};
-		5FF81264AE6F44CFB95575F95B97011F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFA8EDF24137840FB797236B317F2693 /* EastEggKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EastEggKit/EastEggKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EastEggKit/EastEggKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EastEggKit/EastEggKit.modulemap";
-				PRODUCT_MODULE_NAME = EastEggKit;
-				PRODUCT_NAME = EastEggKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		921321F69A3CF0F2C16CDD85DE3897E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFA8EDF24137840FB797236B317F2693 /* EastEggKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EastEggKit/EastEggKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EastEggKit/EastEggKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EastEggKit/EastEggKit.modulemap";
-				PRODUCT_MODULE_NAME = EastEggKit;
-				PRODUCT_NAME = EastEggKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		92822A7A87E4F00A626C57505DB0D4EA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C2BFF7E15D2A7EE9060566743AB5947 /* Pods-EastEggKit_Example.release.xcconfig */;
+			baseConfigurationReference = A40DE69A85E93EFFEC3FA66492D49A20 /* Pods-EastEggKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -693,7 +586,7 @@
 		};
 		E6C0A4E4B848B36EB892D8EDE65E0369 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 628BCB02B086ED0DC154145CE5A547BF /* Pods-EastEggKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = DD322BBE3AABBBEA5294092BF4172D91 /* Pods-EastEggKit_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -724,6 +617,19 @@
 			};
 			name = Debug;
 		};
+		EB7DD6EE45C390A06FF5560718E8A70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBDDC6D15E94FC4AE6599BFB4F710E4A /* EastEggKit.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -745,11 +651,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B93B056F469DE833D900FFE2BF52305 /* Build configuration list for PBXNativeTarget "EastEggKit" */ = {
+		B3C71BC21CB99B2B8715D3D13A929F15 /* Build configuration list for PBXAggregateTarget "EastEggKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				921321F69A3CF0F2C16CDD85DE3897E2 /* Debug */,
-				5FF81264AE6F44CFB95575F95B97011F /* Release */,
+				EB7DD6EE45C390A06FF5560718E8A70A /* Debug */,
+				1E55415D0A0A46808E3809DD9806A941 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
