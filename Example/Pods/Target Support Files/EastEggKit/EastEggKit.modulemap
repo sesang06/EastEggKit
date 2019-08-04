@@ -1,0 +1,6 @@
+framework module EastEggKit {
+  umbrella header "EastEggKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

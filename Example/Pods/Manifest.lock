@@ -1,0 +1,16 @@
+PODS:
+  - EastEggKit (0.1.0)
+
+DEPENDENCIES:
+  - EastEggKit (from `../`)
+
+EXTERNAL SOURCES:
+  EastEggKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EastEggKit: a6752b779ae3ab1e7c0f8c84544db970eb9da706
+
+PODFILE CHECKSUM: f6cc84de402833da06d3392a1c73628f0b27c5c0
+
+COCOAPODS: 1.7.5

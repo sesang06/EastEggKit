@@ -1,0 +1,22 @@
+{
+  "name": "EastEggKit",
+  "version": "0.1.0",
+  "summary": "A short description of EastEggKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sesang06/EastEggKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sesang06": "sesang06@naver.com"
+  },
+  "source": {
+    "git": "https://github.com/sesang06/EastEggKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "EastEggKit/Classes/**/*"
+}

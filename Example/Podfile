@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EastEggKit_Example' do
+  pod 'EastEggKit', :path => '../'
+
+  target 'EastEggKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
